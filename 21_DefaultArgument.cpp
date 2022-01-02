@@ -7,7 +7,7 @@ void print(int arr[],int n,int start=0){
     cout<<endl;
 }
 int main(){
-    int arr[]={1,2,5,7,9};
+    int arr[5]={1,2,5,7,9};
     int size=5;
     print(arr,size);
     print(arr,size,2);
