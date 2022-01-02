@@ -1,47 +1,13 @@
 #include<bits/stdc++.h>
 using namespace std;
+
+#define PI 3.15
 int main(){
 
-    int row;
-    cin>>row;
-
-    int col;
-    cin>>col;
-
-    // Creating
-
-    int **arr=new int *[row];
-
-    for(int i=0;i<row;i++){
-        arr[i]=new int[col];
-    }
+    int r=1;
+    double area=PI*r*r;
+    cout<<"Area is -> "<<area<<endl;
     
-
-    // Taking Input
-
-    for(int i=0;i<row;i++){
-        for(int j=0;j<col;j++){
-            cin>>arr[i][j];
-        }
-    }
-
-    // Taking Output
-
-    for(int i=0;i<row;i++){
-        for(int j=0;j<col;j++){
-            cout<<arr[i][j]<<" ";
-        }
-        cout<<endl;
-    }
-
-    
-    // Releasing Memory
-
-    for(int i=0;i<row;i++){
-        delete [] arr[i];
-    }
-
-    delete []arr;
 
 
 
