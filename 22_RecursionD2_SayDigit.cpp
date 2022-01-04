@@ -4,7 +4,7 @@ using namespace std;
 void sayDigit(int n,string arr[]){
     // BASE CASE
     if(n==0){
-        return "zero";
+        return;
     }
 
     int digit=n%10;
